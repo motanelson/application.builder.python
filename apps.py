@@ -16,8 +16,8 @@ class myapps:
 
 
 legs="""
-        self.control$1=tk.$2(background=backgrouds,foreground=foregrounds)
-        self.control$1.pack(padx=10,pady=10)
+        self.$2$1=tk.$2(background=backgrouds,foreground=foregrounds)
+        self.$2$1.pack(padx=10,pady=10)
 """
 def saves(files,mode,value):
     f1=open(files,mode)
